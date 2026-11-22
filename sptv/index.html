@@ -7,6 +7,7 @@
 <meta name="description" content="SPTV — плеер для плейлистов M3U на Android TV в стиле Stalker: программа передач, архив, избранное, видеотека, радио.">
 <link rel="icon" href="../favicon.png">
 <link rel="stylesheet" href="../style.css">
+<script src="../i18n.js"></script>
 </head>
 <body>
 <div class="wrap">
@@ -14,75 +15,76 @@
     <img src="../assets/sptv-icon.png" alt="">
     <span class="brand">PSYSANICH</span>
     <nav>
-      <a href="../">Главная</a>
+      <a href="../" data-t="nav_home">Главная</a>
       <a href="./">SPTV</a>
-      <a href="privacy.html">Конфиденциальность</a>
+      <a href="privacy.html" data-t="nav_priv">Конфиденциальность</a>
     </nav>
   </header>
 
   <section class="hero">
     <img class="logo" src="../assets/sptv-logo.png" alt="Логотип SPTV">
-    <h1><span class="neon">SPTV — плеер для телевизора</span></h1>
-    <p>Смотрите свои IPTV-каналы в привычном интерфейсе в стиле Stalker. Крупно, понятно, управляется пультом.</p>
+    <h1><span class="neon" data-t="sptv_h1">SPTV — плеер для телевизора</span></h1>
+    <p data-t="sptv_lead">Смотрите свои IPTV-каналы в привычном интерфейсе в стиле Stalker. Крупно, понятно, управляется пультом.</p>
   </section>
 
   <section class="grid">
     <article class="card">
-      <h2>Телевидение</h2>
+      <h2 data-t="h_tv">Телевидение</h2>
       <ul>
-        <li>Плейлисты M3U / M3U8 по ссылке или из файла</li>
-        <li>Логотипы, группы, номера каналов</li>
-        <li>Программа передач (EPG) и архив по дням</li>
-        <li>Избранное, сортировка, свой порядок каналов, поиск</li>
-        <li>Скрытие ненужных групп и стран</li>
+        <li data-t="tv1">Плейлисты M3U / M3U8 по ссылке или из файла</li>
+        <li data-t="tv2">Логотипы, группы, номера каналов</li>
+        <li data-t="tv3">Программа передач (EPG) и архив по дням</li>
+        <li data-t="tv4">Избранное, сортировка, свой порядок каналов, поиск</li>
+        <li data-t="tv5">Скрытие ненужных групп и стран</li>
       </ul>
     </article>
     <article class="card">
-      <h2>Удобство</h2>
+      <h2 data-t="h_easy">Удобство</h2>
       <ul>
-        <li>Мастер первого запуска</li>
-        <li>Ввод ключа и ссылок с телефона по QR-коду</li>
-        <li>Подсказки к каждому разделу настроек</li>
-        <li>Клавиатура открывается только по кнопке OK</li>
-        <li>Плитки ваших приложений в главном меню</li>
+        <li data-t="e1">Мастер первого запуска</li>
+        <li data-t="e2">Ввод ключа и ссылок с телефона по QR-коду</li>
+        <li data-t="e3">Подсказки к каждому разделу настроек</li>
+        <li data-t="e4">Клавиатура открывается только по кнопке OK</li>
+        <li data-t="e5">Плитки ваших приложений в главном меню</li>
+        <li data-t="e6">Пять языков: русский, English, українська, עברית, العربية</li>
       </ul>
     </article>
     <article class="card">
-      <h2>Ещё</h2>
+      <h2 data-t="h_more">Ещё</h2>
       <ul>
-        <li>Видеотека: фильмы и сериалы из ваших источников</li>
-        <li>Интернет-радио из открытого каталога</li>
-        <li>Погода и гороскоп на главном экране</li>
-        <li>Личный кабинет со всеми сведениями о подключении</li>
+        <li data-t="m1">Видеотека: фильмы и сериалы из ваших источников</li>
+        <li data-t="m2">Интернет-радио из открытого каталога</li>
+        <li data-t="m3">Погода и гороскоп на главном экране</li>
+        <li data-t="m4">Личный кабинет со всеми сведениями о подключении</li>
       </ul>
     </article>
   </section>
 
   <section class="card shots" style="margin-bottom:40px">
-    <h2>Как это выглядит</h2>
+    <h2 data-t="h_shots">Как это выглядит</h2>
     <div class="gallery">
-      <a href="../assets/shots/01-menu.jpg" target="_blank"><figure><img src="../assets/shots/01-menu.jpg" alt="Главное меню" loading="lazy"><figcaption>Главное меню</figcaption></figure></a>
-      <a href="../assets/shots/02-menu-groups.jpg" target="_blank"><figure><img src="../assets/shots/02-menu-groups.jpg" alt="Быстрый выбор группы каналов" loading="lazy"><figcaption>Быстрый выбор группы каналов</figcaption></figure></a>
-      <a href="../assets/shots/03-weather.jpg" target="_blank"><figure><img src="../assets/shots/03-weather.jpg" alt="Погода прямо в меню" loading="lazy"><figcaption>Погода прямо в меню</figcaption></figure></a>
-      <a href="../assets/shots/04-horoscope.jpg" target="_blank"><figure><img src="../assets/shots/04-horoscope.jpg" alt="Гороскоп на сегодня и завтра" loading="lazy"><figcaption>Гороскоп на сегодня и завтра</figcaption></figure></a>
-      <a href="../assets/shots/12-horoscope-signs.jpg" target="_blank"><figure><img src="../assets/shots/12-horoscope-signs.jpg" alt="Выбор знака зодиака" loading="lazy"><figcaption>Выбор знака зодиака</figcaption></figure></a>
-      <a href="../assets/shots/05-channels.jpg" target="_blank"><figure><img src="../assets/shots/05-channels.jpg" alt="Список каналов с программой" loading="lazy"><figcaption>Список каналов с программой</figcaption></figure></a>
-      <a href="../assets/shots/06-channels-groups.jpg" target="_blank"><figure><img src="../assets/shots/06-channels-groups.jpg" alt="Группы, избранное, поиск" loading="lazy"><figcaption>Группы, избранное, поиск</figcaption></figure></a>
-      <a href="../assets/shots/07-archive.jpg" target="_blank"><figure><img src="../assets/shots/07-archive.jpg" alt="Архив передач по дням" loading="lazy"><figcaption>Архив передач по дням</figcaption></figure></a>
-      <a href="../assets/shots/08-skins.jpg" target="_blank"><figure><img src="../assets/shots/08-skins.jpg" alt="Оболочки, например «Город будущего»" loading="lazy"><figcaption>Оболочки, например «Город будущего»</figcaption></figure></a>
-      <a href="../assets/shots/09-settings.jpg" target="_blank"><figure><img src="../assets/shots/09-settings.jpg" alt="Настройки с подсказками" loading="lazy"><figcaption>Настройки с подсказками</figcaption></figure></a>
-      <a href="../assets/shots/10-channel-settings.jpg" target="_blank"><figure><img src="../assets/shots/10-channel-settings.jpg" alt="Скрытие ненужных групп" loading="lazy"><figcaption>Скрытие ненужных групп</figcaption></figure></a>
-      <a href="../assets/shots/11-phone-input.jpg" target="_blank"><figure><img src="../assets/shots/11-phone-input.jpg" alt="Ввод ссылок с телефона по QR-коду" loading="lazy"><figcaption>Ввод ссылок с телефона по QR-коду</figcaption></figure></a>
+      <a href="../assets/shots/01-menu.jpg" target="_blank"><figure><img data-base="../assets/shots/" data-shot="01-menu" src="../assets/shots/01-menu.jpg" alt="Главное меню" loading="lazy"><figcaption data-t="s_menu">Главное меню</figcaption></figure></a>
+      <a href="../assets/shots/02-menu-groups.jpg" target="_blank"><figure><img data-base="../assets/shots/" data-shot="02-menu-groups" src="../assets/shots/02-menu-groups.jpg" alt="Быстрый выбор группы каналов" loading="lazy"><figcaption data-t="s_groups">Быстрый выбор группы каналов</figcaption></figure></a>
+      <a href="../assets/shots/03-weather.jpg" target="_blank"><figure><img data-base="../assets/shots/" data-shot="03-weather" src="../assets/shots/03-weather.jpg" alt="Погода прямо в меню" loading="lazy"><figcaption data-t="s_weather">Погода прямо в меню</figcaption></figure></a>
+      <a href="../assets/shots/04-horoscope.jpg" target="_blank"><figure><img data-base="../assets/shots/" data-shot="04-horoscope" src="../assets/shots/04-horoscope.jpg" alt="Гороскоп на сегодня и завтра" loading="lazy"><figcaption data-t="s_horo">Гороскоп на сегодня и завтра</figcaption></figure></a>
+      <a href="../assets/shots/12-horoscope-signs.jpg" target="_blank"><figure><img data-base="../assets/shots/" data-shot="12-horoscope-signs" src="../assets/shots/12-horoscope-signs.jpg" alt="Выбор знака зодиака" loading="lazy"><figcaption data-t="s_signs">Выбор знака зодиака</figcaption></figure></a>
+      <a href="../assets/shots/05-channels.jpg" target="_blank"><figure><img data-base="../assets/shots/" data-shot="05-channels" src="../assets/shots/05-channels.jpg" alt="Список каналов с программой" loading="lazy"><figcaption data-t="s_ch">Список каналов с программой</figcaption></figure></a>
+      <a href="../assets/shots/06-channels-groups.jpg" target="_blank"><figure><img data-base="../assets/shots/" data-shot="06-channels-groups" src="../assets/shots/06-channels-groups.jpg" alt="Группы, избранное, поиск" loading="lazy"><figcaption data-t="s_chg">Группы, избранное, поиск</figcaption></figure></a>
+      <a href="../assets/shots/07-archive.jpg" target="_blank"><figure><img data-base="../assets/shots/" data-shot="07-archive" src="../assets/shots/07-archive.jpg" alt="Архив передач по дням" loading="lazy"><figcaption data-t="s_arch">Архив передач по дням</figcaption></figure></a>
+      <a href="../assets/shots/08-skins.jpg" target="_blank"><figure><img data-base="../assets/shots/" data-shot="08-skins" src="../assets/shots/08-skins.jpg" alt="Оболочки, например «Город будущего»" loading="lazy"><figcaption data-t="s_skins">Оболочки, например «Город будущего»</figcaption></figure></a>
+      <a href="../assets/shots/09-settings.jpg" target="_blank"><figure><img data-base="../assets/shots/" data-shot="09-settings" src="../assets/shots/09-settings.jpg" alt="Настройки с подсказками" loading="lazy"><figcaption data-t="s_set">Настройки с подсказками</figcaption></figure></a>
+      <a href="../assets/shots/10-channel-settings.jpg" target="_blank"><figure><img data-base="../assets/shots/" data-shot="10-channel-settings" src="../assets/shots/10-channel-settings.jpg" alt="Скрытие ненужных групп" loading="lazy"><figcaption data-t="s_chset">Скрытие ненужных групп</figcaption></figure></a>
+      <a href="../assets/shots/11-phone-input.jpg" target="_blank"><figure><img data-base="../assets/shots/" data-shot="11-phone-input" src="../assets/shots/11-phone-input.jpg" alt="Ввод ссылок с телефона по QR-коду" loading="lazy"><figcaption data-t="s_phone">Ввод ссылок с телефона по QR-коду</figcaption></figure></a>
     </div>
-    <p class="note">Логотипы и названия каналов на снимках размыты: каналы зависят от вашего плейлиста.</p>
+    <p class="note" data-t="shots_note">Логотипы и названия каналов на снимках размыты: каналы зависят от вашего плейлиста.</p>
   </section>
 
   <section class="card" style="margin-bottom:40px">
-    <h2>Важно</h2>
-    <p>SPTV — только плеер. В нём нет встроенных каналов, фильмов или плейлистов. Вы добавляете свои источники, например плейлист от вашего провайдера, и отвечаете за законность их использования.</p>
+    <h2 data-t="h_imp">Важно</h2>
+    <p data-t="imp">SPTV — только плеер. В нём нет встроенных каналов, фильмов или плейлистов. Вы добавляете свои источники, например плейлист от вашего провайдера, и отвечаете за законность их использования.</p>
   </section>
 
-  <footer>© 2026 PSYSANICH · <a href="privacy.html">Политика конфиденциальности</a></footer>
+  <footer>© 2026 PSYSANICH · <a href="privacy.html" data-t="foot_priv">Политика конфиденциальности</a></footer>
 </div>
 </body>
 </html>

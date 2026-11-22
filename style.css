@@ -23,7 +23,7 @@ a { color: var(--cyan); }
 a:hover { color: #9fe6ff; }
 .wrap { max-width: 980px; margin: 0 auto; padding: 0 16px; }
 header.top {
-  display: flex; align-items: center; gap: 12px;
+  display: flex; flex-wrap: wrap; align-items: center; gap: 12px;
   padding: 18px 0; border-bottom: 1px solid var(--line);
 }
 header.top img { width: 40px; height: 40px; border-radius: 10px; }
@@ -85,3 +85,8 @@ footer { border-top: 1px solid var(--line); padding: 22px 0 36px; color: var(--m
 .gallery a:hover img { transform: scale(1.03); }
 .gallery figcaption { font-size: 14px; color: var(--muted); margin-top: 6px; }
 .shots .note { font-size: 13px; color: var(--muted); margin: 14px 0 0; }
+
+.langs { display: flex; flex-wrap: wrap; gap: 6px; width: 100%; justify-content: flex-end; margin-top: 8px; }
+.langs button { background: transparent; color: var(--muted); border: 1px solid var(--line); border-radius: 99px; padding: 4px 12px; font: inherit; font-size: 14px; cursor: pointer; }
+.langs button.on { color: #fff; border-color: #7fdbff; background: rgba(127,219,255,.12); }
+[dir=rtl] .gallery figcaption, [dir=rtl] .card { text-align: right; }

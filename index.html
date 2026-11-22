@@ -7,6 +7,7 @@
 <meta name="description" content="SPTV — IPTV-плеер для Android TV в стиле Stalker и другие приложения PSYSANICH.">
 <link rel="icon" href="favicon.png">
 <link rel="stylesheet" href="style.css">
+<script src="i18n.js"></script>
 </head>
 <body>
 <div class="wrap">
@@ -16,14 +17,14 @@
     <nav>
       <a href="sptv/">SPTV</a>
       <a href="dwg/">DWG Viewer</a>
-      <a href="sptv/privacy.html">Конфиденциальность</a>
+      <a href="sptv/privacy.html" data-t="nav_priv">Конфиденциальность</a>
     </nav>
   </header>
 
   <section class="hero">
     <img class="logo" src="assets/sptv-logo.png" alt="Логотип SPTV — PSYSANICH PLAYER TV">
-    <h1><span class="neon">Приложения для телевизора</span></h1>
-    <p>Простые и удобные программы для Android TV и телефонов. Делаем для людей — так, чтобы разобрался каждый, в том числе бабушки и дедушки.</p>
+    <h1><span class="neon" data-t="home_title">Приложения для телевизора</span></h1>
+    <p data-t="home_lead">Простые и удобные программы для Android TV и телефонов. Делаем для людей — так, чтобы разобрался каждый, в том числе бабушки и дедушки.</p>
   </section>
 
   <section class="grid">
@@ -32,13 +33,13 @@
         <img src="assets/sptv-icon.png" alt="Значок SPTV">
         <div>
           <h2>SPTV</h2>
-          <span class="tag">Android TV · IPTV-плеер</span>
+          <span class="tag" data-t="sptv_tag">Android TV · IPTV-плеер</span>
         </div>
       </div>
-      <p>Плеер для ваших плейлистов M3U в привычном стиле Stalker: каналы с логотипами, программа передач, архив, избранное, видеотека и интернет-радио.</p>
+      <p data-t="sptv_card">Плеер для ваших плейлистов M3U в привычном стиле Stalker: каналы с логотипами, программа передач, архив, избранное, видеотека и интернет-радио.</p>
       <div class="btns">
-        <a class="btn" href="sptv/">Подробнее</a>
-        <a class="btn ghost" href="sptv/privacy.html">Конфиденциальность</a>
+        <a class="btn" href="sptv/" data-t="more">Подробнее</a>
+        <a class="btn ghost" href="sptv/privacy.html" data-t="nav_priv">Конфиденциальность</a>
       </div>
     </article>
 
@@ -47,13 +48,13 @@
         <div class="badge">DWG</div>
         <div>
           <h2>DWG Viewer</h2>
-          <span class="tag">Android / Android TV · в разработке</span>
+          <span class="tag" data-t="dwg_tag">Android / Android TV · в разработке</span>
         </div>
       </div>
-      <p>Просмотр чертежей DWG на телефоне и телевизоре: слои, выбор объектов, тексты на русском, английском и иврите.</p>
+      <p data-t="dwg_card">Просмотр чертежей DWG на телефоне и телевизоре: слои, выбор объектов, тексты на русском, английском и иврите.</p>
       <div class="btns">
-        <a class="btn" href="dwg/">Подробнее</a>
-        <a class="btn ghost" href="dwg/privacy.html">Конфиденциальность</a>
+        <a class="btn" href="dwg/" data-t="more">Подробнее</a>
+        <a class="btn ghost" href="dwg/privacy.html" data-t="nav_priv">Конфиденциальность</a>
       </div>
     </article>
   </section>
